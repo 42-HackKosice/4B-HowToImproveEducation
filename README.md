@@ -12,68 +12,36 @@
 - Mazúr Matej, SPŠE-PO, 3rd grade
 - Poľanský Marko, SPŠE-PO, 3rd grade
 
-[SPŠE-PO](http://spse-po.sk) = High school of electrical engineering in Prešov, Slovakia
-
-## Description
-
-Our project is solution for companies that works at Hybrid office system. We tried on examples of big companies make a sollution that will enahnce Hybrid office.
-
-Our project consist of 3 parts, about which you can read more:  
-[Canban](https://github.com/42-HackKosice/2B-ModernWorkspace/blob/main/Canban/ReadMe.md)  
-[Calendar](https://github.com/42-HackKosice/2B-ModernWorkspace/blob/main/Calendar/README.md)  
-[Order meal](https://github.com/42-HackKosice/1B-OrderMealApp/blob/main/README.md)
-
-We made a soultion that uses one database to accesss the data (except the canban, because of Authentication itegrity issue). Our decision was to separate each part into separate project to reduce the network traffic. Because the Canban will be most used per day and the calendar and order meal few times a day.
-
-### Canban
-
-In canban you track your work that you need to end. 
-Also if you have a problem you can ask for help or if you end all your task you can take optional tasks for bonus money at your salary. SuperUser can add items and also assign people to groups.
-
-![](https://user-images.githubusercontent.com/41269745/115905084-e379e200-a465-11eb-9b35-44f1d03fe6b0.png)
-
-### Calendar
-
-In calendar we set a specific number of 5. This number means how many users/employees can sign for days in month when they want to go physically to work. In this calendar you can also see on which date are company meetings when all people need to be there.
-
-![]()
-
-### Order meal
-
-We used our project from first challenge and added it as a part of our ecosystem. Here you can order meal for today and also who is ordering food can see the list of all orders. Also you can see history of your order so on base of that you can decide what you can order next time.
-
-![]()
+[SPŠE-PO](http://spse-po.sk) = High school of electrical engineering in Prešov, Slovakia  
 
 # Video presentation
 
 Presentation and features of prototype are shown in this video(image/link):
 [![Video Title](https://user-images.githubusercontent.com/41269745/115922605-68242a80-a47d-11eb-8538-6be0f99270c7.png)](https://youtu.be/064sRkHrSnY)  
 
-# How to try?
+## Description
 
-Logins for all sites are:  
-Mail: matejmazur@outlook.com  
-Password: Passw0rd.+  
+Our solution is about recommendation, how to make lessons/workshops more efficient.
 
->Canban: [https://canban.azurewebsites.net/](https://canban.azurewebsites.net/)
+Our project consist of 1 part, which is a data visualization (Slovak Language):  
+[Visualization](https://app.powerbi.com/view?r=eyJrIjoiYjQ1YjEwNDAtMjg1MS00MmYyLWE3ZjQtY2I0NmU2YThjODJmIiwidCI6ImVmOWU0NzMzLTc1ZDItNDk4NC05MmQ1LTdhZjYyZWEwNzA4ZiIsImMiOjl9)  
+[Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__tb2Ey9UOEFYNVdKNlFTM0hSUjhMVjlGTEdMNEJJNC4u)
 
->Calendar: [https://aworkcalendar.azurewebsites.net/](https://aworkcalendar.azurewebsites.net/)
+Because we are High School students we can only refer on the education mainly on our school but we think that is not as much different as College education.  
+After discusing possible ways of education we came with nothing new, but we created the form in Slovak language because our school use the Slovak language.
+Most interesting findings are more talked about in the Video Presentation.
 
->Order meal: [https://ordermeal.azurewebsites.net/](https://ordermeal.azurewebsites.net/)
+Our decisions came from the basics of the basic steps of Data analysis:
+![Data analysis steps](https://ewota.com/content/images/size/w2000/2020/05/five-steps-process.png)
 
 # Challenges and accomplishments
 
-Biggest challenge was to think of something that would be useful. Also we firstly tried to make "APIs" for our websites to short the work of user from GET and than POST on only POST. 
-
-Biggest problem for us is that each of us know another type of coding technology and all the Frameworks use different Identity storing. We want to look at it and maybe find a way how to connect Laravel and ASP.NET and how to use one Identity storage for both.
+Biggest problem for us was that we don't write down our ideas when we talk about them and when is the time we need them, we don't have them.  
+But as we said, wrote earlier the main thing you need is the data.
 
 # Next Steps
-* [ ] Fill the web with real Data (Users, Tasks, Groups, Buckets, Dates)
->#### Possible Upgrades:
->* [ ] Connect the Identity storage for only one
->* [ ] Add more game-ish features like xp and levels
->* [ ] Rework the Canban Board to have drag & drop and also to make it automatically update without reloading site
->* [ ] Time picker for users e.g. how many hours they will work in the office 
+* [ ] Collect Data
+* [ ] Visualize them
 
 ## License
 
