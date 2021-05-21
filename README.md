@@ -17,7 +17,7 @@
 # Video presentation
 
 Presentation and features of prototype are shown in this video(image/link):
-[![Video Title](https://user-images.githubusercontent.com/41269745/115922605-68242a80-a47d-11eb-8538-6be0f99270c7.png)](https://youtu.be/064sRkHrSnY)  
+[![Hack4BIntro](https://user-images.githubusercontent.com/41269745/119194618-a8c69200-ba83-11eb-9d96-60ca9c8bffdb.png)](https://youtu.be/064sRkHrSnY)  
 
 ## Description
 
